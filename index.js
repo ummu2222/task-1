@@ -5,5 +5,5 @@ const text=document.getElementById('text');
 window.addEventListener('scroll',function(){
     const value = window.scrollY;
     bg.style.top = value + 'px';
-    text.style.top = value*0.6 - 210 +'px';
+    text.style.top = value*0.6-210 +'px';
 })
